@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-        <title>Contact Clamra Team</title>
+        <title>User Guide</title>
     <meta charset="utf-8" />
         <link href="http://www.clamra.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Clamra Full Atom Feed" />
                         <link href="http://www.clamra.com/feeds/.atom.xml" type="application/atom+xml" rel="alternate" title="Clamra Categories Atom Feed" />
@@ -41,10 +41,45 @@
     </div> <!-- end of nav bar -->
 
     <div class="container" id="main">
-        <h1>Contact Clamra Team</h1>
+        <h1>User Guide</h1>
         
 
-    <p>You can reach us by email <a class="reference external" href="mailto:team&#64;clamra.com">team&#64;clamra.com</a> .</p>
+    <div class="section" id="get-your-first-clamra-addresss">
+<h2>Get your first Clamra addresss</h2>
+<p>send to an email to <strong>start&#64;clamra.com</strong> and follow the instructions</p>
+</div>
+<div class="section" id="get-more-clamra-addresss">
+<h2>Get more Clamra addresss</h2>
+<p>send to an email to <strong>create&#64;clamra.com</strong> and follow the instructions</p>
+</div>
+<div class="section" id="send-mute-unmute-commands">
+<h2>Send mute/unmute commands</h2>
+<p>If your Clamra address is <strong>someuser&#64;claram.com</strong> , send email to  <strong>someuser+command&#64;clamra.com</strong> ,
+specfic your command in email body .</p>
+<pre class="literal-block">
+mute abc&#64;example.com   # mute abc&#64;example.com
+mute &#64;example.com      # mute the whold example.com domain
+unmute cdf&#64;example.com # unmute cdf&#64;example.com
+unmute &#64;example.com    # unmute domain example.com
+</pre>
+<p>You can include multiple commands in the message.</p>
+</div>
+<div class="section" id="send-email">
+<h2>Send email</h2>
+<p>If your Clamra address is <strong>someuser&#64;claram.com</strong> , send an email to  <strong>someuser+send&#64;clamra.com</strong> ,
+like this</p>
+<pre class="literal-block">
+From: you-email&#64;example.com
+To: someuser+send&#64;clamra.com
+Subject: [to:real-target&#64;domain.com]Your Subject
+</pre>
+<p>We will send the email to <cite>real-target&#64;domain.com</cite> on behalf of <cite>someuser&#64;clamra.com</cite> .</p>
+<pre class="literal-block">
+From: someuser&#64;clamra.com
+To: real-target&#64;domain.com
+Subject: Your Subject
+</pre>
+</div>
 
 
      <!-- Footer
