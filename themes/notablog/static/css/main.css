@@ -5,6 +5,10 @@ body {
   padding-bottom: 40px;
 }
 
+#main {
+  margin-top:60px;
+}
+
 /* Custom container */
 .container-narrow {
   margin: 0 auto;

@@ -54,19 +54,17 @@
           <span class="icon-bar"></span>
         </a>
         <a class="brand" href="{{ SITE_URL }}/">{{ SITENAME }}</a>
-        <!--
         <div class="nav-collapse" id="main-menu">
           <ul class="nav" id="main-menu-left">
-            <li><a href="{{ SITE_URL }}/blog/">Home</a></li>
-            <li><a href="{{ SITE_URL }}/doc/">Document</a></li>
+            <li><a href="{{ SITE_URL }}/">Home</a></li>
+            <li><a href="{{ SITE_URL }}/pages/user-guide.html">Document</a></li>
           </ul>
         </div>
-        -->
       </div>
     </div>
     </div> <!-- end of nav bar -->
 
-    <div class="container">
+    <div class="container" id="main">
     {% block content %}
     {% endblock %}
 
